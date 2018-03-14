@@ -58,7 +58,7 @@ console.log(a);
 ```
 则已经转换完成。<br>
 <br>
-### 通过不用输入```babel src/index.js -o dist/index.js·```，直接使用```npm run build```实行转换。<br>
+### 通过不用输入babel src/index.js -o dist/index.jsm直接使用npm run build实行转换。
 首先找到package.json文件，然后再script中进行修改，最终修改为
 ```
 {
