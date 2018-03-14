@@ -29,9 +29,7 @@ package.json中的内容：<br>
 要注意-g是表示全局安装，要注意是安装babel-cli。<br>
 安装完毕之后，实际上还是不能直接转换，还需要安装一个工具 babel-preset-es2015 <br>
 所以需要在命令行输入<br>
-```
-npm install --save-dev babel-preset-es2015 babel-cli
-```
+```npm install --save-dev babel-preset-es2015 babel-cli```<br>
 安装完成后，在package.json里面有关于这个组件的版本号。<br>
 例，在package.json文件中：<br>
 ```
@@ -57,7 +55,7 @@ babel src/index.js -o dist/index.js·
 <br>
 执行完成后，会在dist目录下生成一个index.js文件。<br>
 在dist目录的index.js文件中：<br>
-```es6
+```
 "use strict";
 
 var a = 5;
