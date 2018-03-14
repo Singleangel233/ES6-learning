@@ -23,7 +23,6 @@ package.json中的内容：<br>
   "license": "ISC"	//这个是协议
 }
 ```
-<br>
 然后使用npm安装babel，在命令行里输入：<br>
 ```
 npm install -g babel-cli
