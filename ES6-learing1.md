@@ -55,15 +55,16 @@ babel src/index.js -o dist/index.js·
 <br>
 执行完成后，会在dist目录下生成一个index.js文件。<br>
 在dist目录的index.js文件中：<br>
-```
+```javascript
 "use strict";
 
 var a = 5;
 console.log(a);
-
 ```
 则已经转换完成。<br>
 <br>
+
+
 ### 通过不用输入babel src/index.js -o dist/index.jsm直接使用npm run build实行转换。
 首先找到package.json文件，然后再script中进行修改，最终修改为
 ```
@@ -83,4 +84,5 @@ console.log(a);
   }
 }
 ```
+
 然后再命令行输入```npm run build```，就可以直接进行转换了。<br>
