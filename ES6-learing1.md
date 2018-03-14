@@ -29,10 +29,15 @@ package.json中的内容：<br>
 要注意-g是表示全局安装，要注意是安装babel-cli。<br>
 安装完毕之后，实际上还是不能直接转换，还需要安装一个工具 babel-preset-es2015 <br>
 所以需要在命令行输入<br>
-```npm install --save-dev babel-preset-es2015 babel-cli```
+```
+npm install --save-dev babel-preset-es2015 babel-cli
+```
 安装完成后，在package.json里面有关于这个组件的版本号。<br>
 例，在package.json文件中：<br>
-```"babel-preset-es2015": "^6.24.1"```<br>
+```
+"babel-preset-es2015": "^6.24.1"
+```
+<br>
 安装完毕后，还需要一步，在当前目录下添加.babelrc文件，并且添加内容。<br>
 .babelrc中的内容为：<br>
 ```
@@ -44,7 +49,10 @@ package.json中的内容：<br>
 }
 ```
 输入完成后，然后在命令行里面直接输入：<br>
-```babel src/index.js -o dist/index.js·```<br>
+```
+babel src/index.js -o dist/index.js·
+```
+<br>
 这个意思就是表示从src下的index.js经过转换，然后转到dist目录下，并且新生成转换后的index.js<br>
 <br>
 执行完成后，会在dist目录下生成一个index.js文件。<br>
