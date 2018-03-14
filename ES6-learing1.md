@@ -25,7 +25,10 @@ package.json中的内容：<br>
 ```
 <br>
 然后使用npm安装babel，在命令行里输入：<br>
-```npm install -g babel-cli```<br>
+```
+npm install -g babel-cli
+```
+<br>
 要注意-g是表示全局安装，要注意是安装babel-cli。<br>
 安装完毕之后，实际上还是不能直接转换，还需要安装一个工具 babel-preset-es2015 <br>
 所以需要在命令行输入<br>
