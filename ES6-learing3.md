@@ -3,9 +3,13 @@
 使用解构赋值可以减少代码量，并且同时可以让代码更加清晰。<br>
 
 ### 解构赋值的三种形态：<br>
-<a href="#01"><p>数组的结构赋值</p></a>
+<a href="#01"><p>数组的解构赋值</p></a>
+<a href="#02"><p>对象的解构赋值</p></a>
+<a href="#03"><p>数组的解构赋值</p></a>
 
-#### 第一种，数组的解构赋值
+
+
+<a name="01"><h4>数组的解构赋值</h4></a>
 例如这样声明和为变量赋值：<br>
 ```javascript
 let [a,b,c]=[1,2,3];
@@ -37,7 +41,7 @@ let [a,b='tianer']=['singleangel'];
 console.log(a);  //输出singleangel
 console.log(b);	 //输出angel
 ```
-<a name="01"><p>在上个例子中，让a自动赋值到'singleangel'，让b默认值为'tianer'，但是如果这样写</p></a>：<br>
+在上个例子中，让a自动赋值到'singleangel'，让b默认值为'tianer'，但是如果这样写<br>
 ```javascript
 let [a='singleangel',b]=['tianer'];
 console.log(a);  //输出tianer
@@ -45,4 +49,16 @@ console.log(b);	 //输出undefined
 ```
 
 
-关于undefined和null
+关于undefined和null在解构赋值中的意义：<br>
+例如undefined：<br>
+```javascript
+let [a,b='tianer'] = ['singleangel','undefined'];
+console.log(a+b);  //输出的是singleangeltianer
+```
+也就是说，如果有默认值，那么就会覆盖掉undefined。<br>
+例如null：<br>
+```javascript
+let [a,b='tianer'] = ['singleangel','null'];
+console.log(a+b);  //输出的是singleangelnull
+```
+也就是说，如果赋值为null，则会替换掉默认的tianer。<br>
