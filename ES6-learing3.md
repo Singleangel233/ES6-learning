@@ -5,7 +5,7 @@
 <h3>解构赋值的三种形态：</h3>
 <a href="#01"><p>数组的解构赋值</p></a>
 <a href="#02"><p>对象的解构赋值</p></a>
-<a href="#03"><p>数组的解构赋值</p></a>
+<a href="#03"><p>字符串的解构赋值</p></a>
 
 <a name="01"><h4>数组的解构赋值</h4></a>
 例如这样声明和为变量赋值：<br>
@@ -84,4 +84,18 @@ let foo;
 ({foo}={foo:'tianer'});  //要在第二行使用一个圆括号才能解决
 console.log(foo);  
 ```
+<a href="#top">返回顶部</a>
+<br>
+<a name="03"><h4>字符串的解构赋值</h4></a>
+例如：<br>
+```javascript
+const [a,b,c,d,e,f]='tianer';
+console.log(a);  //输出t
+console.log(b);  //输出i
+console.log(c);  //输出a
+console.log(d);  //输出n
+console.log(e);  //输出e
+console.log(f);  //输出r
+```
+这个可以用来进行权限的判断。<br>
 <a href="#top">返回顶部</a>
