@@ -2,7 +2,7 @@
 解构赋值：是可以用数组或者对象的方式来提取里面的变量，然后对应赋值。<br>
 使用解构赋值可以减少代码量，并且同时可以让代码更加清晰。<br>
 
-### 解构赋值的三种形态：<br>
+<a name="top"><h3>解构赋值的三种形态：</h3></a>
 <a href="#01"><p>数组的解构赋值</p></a>
 <a href="#02"><p>对象的解构赋值</p></a>
 <a href="#03"><p>数组的解构赋值</p></a>
@@ -62,3 +62,5 @@ let [a,b='tianer'] = ['singleangel','null'];
 console.log(a+b);  //输出的是singleangelnull
 ```
 也就是说，如果赋值为null，则会替换掉默认的tianer。<br>
+<br>
+<a href="#top">返回顶部</a>
