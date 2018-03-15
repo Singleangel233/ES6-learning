@@ -60,6 +60,7 @@ let [a,b='tianer'] = ['singleangel','null'];
 console.log(a+b);  //输出的是singleangelnull
 ```
 也就是说，如果赋值为null，则会替换掉默认的tianer。<br>
+<br>
 <a href="#top">返回顶部</a>
 <br>
 <a name="02"><h4>对象的解构赋值</h4></a>
