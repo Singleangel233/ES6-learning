@@ -1,6 +1,6 @@
 <a name="top"><h2>扩展运算符</h2></a>
-<a href=""><h4>对象扩展运算符</h4></a>
-<a href=""><h4>rest运算符</h4></a>
+<a href="#01"><h4>对象扩展运算符</h4></a>
+<a href="#02"><h4>rest运算符</h4></a>
 <br>
 <a name="01">对象扩展运算符></a>
 有时候考虑方法的参数个数不确定，就可以使用扩展运算符来使用。<br>
@@ -37,7 +37,7 @@ console.log(arr1);  //输出['a','b','c']，各是各的，不会影响
 ```
 <a href="#top">返回顶部</a>
 <br>
-<a name="01"><h4>rest运算符</h4></a>
+<a name="02"><h4>rest运算符</h4></a>
 例：<br>
 ```javascript
 function tianer(a,...arg){
