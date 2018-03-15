@@ -3,6 +3,7 @@
 使用解构赋值可以减少代码量，并且同时可以让代码更加清晰。<br>
 
 ### 解构赋值的三种形态：<br>
+<a href="#01"><p>数组的结构赋值</p></a>
 
 #### 第一种，数组的解构赋值
 例如这样声明和为变量赋值：<br>
@@ -36,7 +37,7 @@ let [a,b='tianer']=['singleangel'];
 console.log(a);  //输出singleangel
 console.log(b);	 //输出angel
 ```
-在这个例子中，让a自动赋值到'singleangel'，让b默认值为'tianer'，但是如果这样写：<br>
+<a name="01"><p>在上个例子中，让a自动赋值到'singleangel'，让b默认值为'tianer'，但是如果这样写</p></a>：<br>
 ```javascript
 let [a='singleangel',b]=['tianer'];
 console.log(a);  //输出tianer
@@ -44,4 +45,4 @@ console.log(b);	 //输出undefined
 ```
 
 
-关于
+关于undefined和null
